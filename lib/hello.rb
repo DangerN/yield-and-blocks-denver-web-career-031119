@@ -1,4 +1,4 @@
-def hello_t(arrsy)
+def hello_t(array)
   if block_given?
     i = 0
  
@@ -12,7 +12,3 @@ def hello_t(arrsy)
     puts "Hey! No block was given!"
   end
 end
-
-
-# call your method here!
-
